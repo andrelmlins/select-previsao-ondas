@@ -16,7 +16,7 @@ class PrevisaoOndasService {
   public async getPrevisoes(cidade: String) {
     const response = await fetch(`${this.url}/onda/cidade/${cidade}`);
     const data = await response.json();
-    return data.estado.dias;
+    return data.dias;
   }
 }
 
