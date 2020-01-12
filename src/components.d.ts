@@ -10,11 +10,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface MyComponent {
-    'first': string;
-    'last': string;
-    'middle': string;
-  }
+  interface MyComponent {}
 }
 
 declare global {
@@ -32,10 +28,7 @@ declare global {
 
 declare namespace LocalJSX {
   interface MyComponent {
-    'first'?: string;
-    'last'?: string;
-    'middle'?: string;
-    'onOnChange'?: (event: CustomEvent<any>) => void;
+    'onChange'?: (event: CustomEvent<any>) => void;
   }
 
   interface IntrinsicElements {

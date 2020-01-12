@@ -12,7 +12,7 @@ export class MyComponent {
   @State() cidades: Array<any> = [];
   @State() previsoes: Array<any> = [];
 
-  @Event() onChange: EventEmitter;
+  @Event() change: EventEmitter;
 
   public previsaoOndasService: PrevisaoOndasService;
 
@@ -35,7 +35,7 @@ export class MyComponent {
       event.target.value
     );
 
-    this.onChange.emit(this.previsoes);
+    this.change.emit(this.previsoes);
   }
 
   render() {
