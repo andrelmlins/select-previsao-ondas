@@ -1,4 +1,4 @@
-import { Component, Prop, State, Event, EventEmitter, h } from "@stencil/core";
+import { Component, State, Event, EventEmitter, h } from "@stencil/core";
 
 import PrevisaoOndasService from "../../services/previsao-ondas";
 
