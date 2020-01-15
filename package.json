@@ -10,6 +10,7 @@
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/select-previsao-ondas/select-previsao-ondas.js",
+  "repository": "https://github.com/andrelmlins/select-previsao-ondas",
   "files": [
     "dist/",
     "loader/"
