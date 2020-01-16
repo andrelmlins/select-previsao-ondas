@@ -12,9 +12,9 @@ do portal no INPE.
 É possível instalar através do npm da seguinte maneira:
 
 ```
-npm i svelte-infinite-scroll
+npm i select-previsao-ondas
 // OR
-yarn add svelte-infinite-scroll
+yarn add select-previsao-ondas
 ```
 
 Ou somente importando o script através do projeto unpkg:
