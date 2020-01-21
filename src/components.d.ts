@@ -10,29 +10,29 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface MyComponent {}
+  interface SelectPrevisaoOndas {}
 }
 
 declare global {
 
 
-  interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {}
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  interface HTMLSelectPrevisaoOndasElement extends Components.SelectPrevisaoOndas, HTMLStencilElement {}
+  var HTMLSelectPrevisaoOndasElement: {
+    prototype: HTMLSelectPrevisaoOndasElement;
+    new (): HTMLSelectPrevisaoOndasElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'select-previsao-ondas': HTMLSelectPrevisaoOndasElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface MyComponent {
+  interface SelectPrevisaoOndas {
     'onChange'?: (event: CustomEvent<any>) => void;
   }
 
   interface IntrinsicElements {
-    'my-component': MyComponent;
+    'select-previsao-ondas': SelectPrevisaoOndas;
   }
 }
 
@@ -42,7 +42,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'my-component': LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+      'select-previsao-ondas': LocalJSX.SelectPrevisaoOndas & JSXBase.HTMLAttributes<HTMLSelectPrevisaoOndasElement>;
     }
   }
 }

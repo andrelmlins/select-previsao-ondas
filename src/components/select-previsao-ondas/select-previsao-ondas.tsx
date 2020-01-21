@@ -3,11 +3,11 @@ import { Component, State, Event, EventEmitter, h } from "@stencil/core";
 import PrevisaoOndasService from "../../services/previsao-ondas";
 
 @Component({
-  tag: "my-component",
-  styleUrl: "my-component.css",
+  tag: "select-previsao-ondas",
+  styleUrl: "select-previsao-ondas.css",
   shadow: true
 })
-export class MyComponent {
+export class SelectPrevisaoOndasComponent {
   @State() estados: Array<any> = [];
   @State() cidades: Array<any> = [];
   @State() previsoes: Array<any> = [];
