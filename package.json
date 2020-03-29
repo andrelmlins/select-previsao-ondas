@@ -1,7 +1,7 @@
 {
   "name": "select-previsao-ondas",
-  "version": "0.2.0",
-  "description": "Componente que busca a previsão de ondas",
+  "version": "0.2.1",
+  "description": "Componente que busca a previsão de ondas por praias",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
