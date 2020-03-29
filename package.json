@@ -1,7 +1,7 @@
 {
   "name": "select-previsao-ondas",
   "version": "0.2.0",
-  "description": "Stencil Component Starter",
+  "description": "Componente que busca a previsão de ondas",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -11,6 +11,7 @@
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/select-previsao-ondas/select-previsao-ondas.js",
   "repository": "https://github.com/andrelmlins/select-previsao-ondas",
+  "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
   "files": [
     "dist/",
     "loader/"
@@ -25,5 +26,14 @@
   "devDependencies": {
     "@stencil/core": "^1.8.4"
   },
+  "bugs": {
+    "url": "https://github.com/andrelmlins/select-previsao-ondas/issues"
+  },
+  "keywords": [
+    "select",
+    "previsao",
+    "ondas",
+    "web-component"
+  ],
   "license": "MIT"
 }
